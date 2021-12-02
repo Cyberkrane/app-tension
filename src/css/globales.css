@@ -1,0 +1,22 @@
+/* Configuraciones Globales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'vitalSignals';
+    src: url(../fonts/Over\ There.ttf);
+}
+
+html {
+    background-color: rgb(212, 209, 22);
+}
+
+img {
+    width: 100%;
+}
