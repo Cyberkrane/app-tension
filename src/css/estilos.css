@@ -1,18 +1,5 @@
 /* etiquetas */
 
-h1 {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px auto;
-    font-size: 1.5rem;
-    font-family: 'vitalSignals';
-    color: rgb(32, 32, 241);
-    text-shadow: darkgray 1px 1px 2px, rgb(200, 240, 250) 1px 1px 3px;
-}
-
 input {
     max-width: 100%;
     margin: 5px auto;
@@ -30,7 +17,7 @@ p {
 
 .contenedor {
     width: 90%;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -51,7 +38,6 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px rgba(0, 0, 255, 0.637) solid; */
 }
 
 .tablaHead img {
@@ -72,10 +58,6 @@ p {
     padding: 5px;
 }
 
-#metricas {
-    width: 15%;
-}
-
 .tablaFooter {
     display: flex;
     justify-content: space-around;
@@ -83,27 +65,60 @@ p {
 }
 
 .btn {
-    background-color: rgb(0, 204, 255);
+    background-color: rgb(18, 190, 233);
+    color: rgb(228, 238, 247);
+    text-shadow: rgb(128, 175, 212) 1px 1px 2px;
     margin: 10px auto;
     width: 50%;
     text-align: center;
     padding: 20px;
     cursor: pointer;
     border-radius: 10px;
+    box-shadow: steelblue 1px 1px 2px, rgb(62, 119, 165) 1px 1px 3px, rgb(128, 182, 226) -1px -1px 3px;
 }
 
 
 /* media */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 285px) {
+    .tabla {
+        margin: 30px auto 10px;
+        border: 5px brown solid;
+        border-radius: 10px;
+    }
+    p {
+        font-size: .5rem;
+        line-height: 20px;
+        padding: 0;
+    }
+    input {
+        max-width: 100%;
+        margin: 5px auto;
+        padding: 0px;
+    }
+    .btn {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
     .tabla {
         width: 100%;
         margin: 30px auto 10px;
         border: 5px brown solid;
         border-radius: 10px;
     }
-    #metricas {
-        width: 19%;
+    h1 {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        font-size: 1.1rem;
+        font-family: 'vitalSignals';
+        color: rgb(32, 32, 241);
+        text-shadow: darkgray 1px 1px 2px, rgb(200, 240, 250) 1px 1px 3px;
     }
     p {
         font-size: .8rem;
