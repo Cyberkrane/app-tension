@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppTension</title>
+    <link rel="stylesheet" href="./src/estilos.css" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>app-Tension</h1>
+        <div class="tabla">
+            <div class="tablaHead">
+                <div class="tablaCol"><img src="./src/imgs/signo vital.jpg" alt=""></div>
+                <div class="tablaCol">ps</div>
+                <div class="tablaCol">ds</div>
+                <div class="tablaCol">pulso</div>
+            </div>
+            <div class="tablaColumnas">
+                <div class="tablaCol" id="metricas">
+                    <p>datos 1</p>
+                    <p>datos 2</p>
+                    <p>datos 3</p>
+                </div>
+                <div class="tablaCol">
+                    <input type="number" id="ps1" placeholder="ps" />
+                    <input type="number" id="ps2" placeholder="ps" />
+                    <input type="number" id="ps3" placeholder="ps" />
+                </div>
+                <div class="tablaCol">
+                    <input type="number" id="ds1" placeholder="ds" />
+                    <input type="number" id="ds2" placeholder="ds" />
+                    <input type="number" id="ds3" placeholder="ds" />
+                </div>
+                <div class="tablaCol">
+                    <input type="number" id="pulso1" placeholder="pulso" />
+                    <input type="number" id="pulso2" placeholder="pulso" />
+                    <input type="number" id="pulso3" placeholder="pulso" />
+                </div>
+            </div>
+            <div class="tablaFooter">
+                <div class="tablaCol">Promedio</div>
+                <div class="tablaCol" id="promedioPs"></div>
+                <div class="tablaCol" id="promedioDs"></div>
+                <div class="tablaCol" id="promedioPulso"></div>
+            </div>
+
+
+        </div>
+        <div class="btn">
+            <h2>calcular</h2>
+        </div>
+    </div>
+
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
